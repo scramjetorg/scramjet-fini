@@ -1,0 +1,23 @@
+{
+  "name": "scramjet-fini",
+  "version": "1.0.0",
+  "description": "A scramjet compatible readable stream that never ends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://michalcz.github.io/scramjet/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/signicode/scramjet-fini.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "author": "Signicode / Michał Czapracki <cz@signicode.com>",
+  "license": "MIT",
+  "dependencies": {
+    "infinite-sequence-generator": "^1.0.0",
+    "scramjet": ">=2"
+  }
+}
