@@ -17,7 +17,7 @@
   "author": "Signicode / Michał Czapracki <cz@signicode.com>",
   "license": "MIT",
   "dependencies": {
-    "infinite-sequence-generator": "^1.0.0",
-    "scramjet": ">=2"
+    "infinite-sequence-generator": "^1.1.0",
+    "scramjet": "^4.8.0"
   }
 }
