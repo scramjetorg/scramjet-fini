@@ -12,12 +12,12 @@
     "url": "https://github.com/signicode/scramjet-fini.git"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "author": "Signicode / Michał Czapracki <cz@signicode.com>",
   "license": "MIT",
   "dependencies": {
     "infinite-sequence-generator": "^1.1.0",
-    "scramjet": "^4.12.3"
+    "scramjet": "^4.14.1"
   }
 }
