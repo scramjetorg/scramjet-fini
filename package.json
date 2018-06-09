@@ -18,6 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "infinite-sequence-generator": "^1.1.0",
-    "scramjet": "^4.14.1"
+    "scramjet": "^4.15.0"
   }
 }
