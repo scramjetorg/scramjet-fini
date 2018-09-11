@@ -4,7 +4,7 @@
   "description": "A scramjet compatible readable stream that never ends",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "homepage": "https://michalcz.github.io/scramjet/",
   "repository": {
@@ -18,6 +18,6 @@
   "license": "MIT",
   "dependencies": {
     "infinite-sequence-generator": "^1.1.0",
-    "scramjet": "^4.18.5"
+    "scramjet": "^4.18.8"
   }
 }
