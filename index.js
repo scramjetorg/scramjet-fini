@@ -20,8 +20,21 @@ class InfinteDataStream extends StringStream {
 }
 
 const DataStream = {
-    addId(func, prefix) {
-        const fin = fini(prefix || defaultPrefix.next().value);
+    /**
+     * Adds items to DataStream
+     * 
+     * @chainable
+     * @memberof module:scramjet.DataStream#
+     * @param {String|Function} func A function that assigns the id to the stream chunk or key under which to assign the infinite id.
+     * @param {String} [prefix]
+     */
+    addId(func, prefix = defaultPrefix.next.value()) {
+        if (typeof func !== 'function') {
+            const key = func;
+            func = (obj, id) => obj[key] = id;
+        }
+
+        const fin = fini(prefix);
         return this.pipe(new this.constructor({
             parallelTransform: (chunk) => func(chunk, fin.next().value)
         }));
