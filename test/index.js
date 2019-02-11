@@ -14,7 +14,7 @@ module.exports = {
             test.equals(out.length, 1000, "Should read a number of items");
             test.equals(out[999], "abc*\\", "Should contain the required data");
 
-            test.equals(await stream.whenRead(), "abc*l", "Should not end");
+            test.ok(await stream.whenRead(), "Should not end");
 
             test.done();
         } catch(e) {
