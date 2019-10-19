@@ -20,11 +20,11 @@
   "license": "MIT",
   "dependencies": {
     "infinite-sequence-generator": "^1.1.0",
-    "scramjet": "^4.27.0"
+    "scramjet": "^4.27.1"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
+    "eslint": "^6.5.1",
     "eslint-config-scramjet": "^2.0.1",
-    "nodeunit-tape-compat": "^1.3.31"
+    "nodeunit-tape-compat": "^1.3.32"
   }
 }
