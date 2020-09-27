@@ -26,6 +26,6 @@
   "devDependencies": {
     "eslint": "^7.10.0",
     "eslint-config-scramjet": "^3.0.0",
-    "nodeunit-tape-compat": "^1.3.59"
+    "nodeunit-tape-compat": "^1.3.60"
   }
 }
