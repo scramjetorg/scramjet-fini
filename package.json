@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "infinite-sequence-generator": "^1.1.0",
-    "scramjet": "^4.35.1"
+    "scramjet": "^4.35.2"
   },
   "devDependencies": {
     "eslint": "^7.10.0",
