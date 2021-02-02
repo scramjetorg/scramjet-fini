@@ -17,19 +17,7 @@ class InfinteDataStream extends StringStream {
         if (typeof prefix === "object") {
             super("utf8", prefix);
         } else {
-            super("utf8", {
-                read() {
-                    const read = this.fini.next();
-                    if (read.done) {
-                        this.push(null);
-                    } else {
-                        this.push(read.value);
-                    }
-                }
-            });
-            this.fini = fini(prefix || defaultPrefix.next().value);
-
-            this.tap();
+            return StringStream.from(fini(prefix || defaultPrefix.next().value));
         }
     }
 }
