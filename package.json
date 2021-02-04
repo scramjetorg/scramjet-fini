@@ -8,16 +8,16 @@
     "lint": "eslint .",
     "unit": "nodeunit-tape -t test/**/*.js"
   },
-  "homepage": "https://michalcz.github.io/scramjet/",
+  "homepage": "https://scramjet.org/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/signicode/scramjet-fini.git"
+    "url": "https://github.com/scramjetorg/scramjet-fini.git"
   },
   "engines": {
     "node": ">=8"
   },
   "types": "./index.d.ts",
-  "author": "Signicode / Michał Czapracki <cz@signicode.com>",
+  "author": "Scramjet <open-source@scramjet.org>",
   "license": "MIT",
   "dependencies": {
     "infinite-sequence-generator": "^1.1.0",
